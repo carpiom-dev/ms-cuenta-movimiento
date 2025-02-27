@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: test
     
 #http://localhost:9596/api/v1/v3/api-docs
 #http://localhost:9596/api/v1/swagger-ui/index.html
