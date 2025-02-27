@@ -17,8 +17,8 @@ spring:
 
   datasource:
     url: jdbc:postgresql://host.docker.internal:5433/bancoapp
-    username: postgres
-    password: admin
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
 server:
