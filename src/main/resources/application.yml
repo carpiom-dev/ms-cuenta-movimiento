@@ -1,6 +1,6 @@
 spring:
   profiles:
     active: test
-    
+#jdbc:postgresql://host.docker.internal:5433/bancoapp
 #http://localhost:9596/api/v1/v3/api-docs
 #http://localhost:9596/api/v1/swagger-ui/index.html
